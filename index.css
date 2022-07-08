@@ -1,0 +1,17 @@
+body{
+  text-align: center;
+}
+
+.usable{
+  border-radius: 15px;
+  padding: 5px;
+  background: #e4e4e4;
+  margin: 0px 10% 0px 10%;
+}
+
+.inprogress{
+  border-radius: 15px;
+  padding: 5px;
+  background: #d1d1d1;
+  margin: 0px 10% 0px 10%;
+}
