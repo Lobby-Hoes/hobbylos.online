@@ -1,0 +1,16 @@
+{
+  "name": "hobbylos-projekte",
+  "version": "1.0.0",
+  "description": "Sammlung der hobbylos Projekte",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Otto",
+  "license": "ISC"
+}

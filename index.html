@@ -1,45 +1,145 @@
-<!DOCTYPE html>
-<html lang="de">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="description" content="Die Webseite für alle Lobbyhoes. Hier halten wir euch, über alles rund um den Podcast von Rezo und Ju auf dem laufenden"/>
-        <meta name="keywords" content="Lobbyhoes, Webseite, Website, Hobbylos, Podcast, Rezo, Ju, Julien Bam, "/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="./main.ico" />
-        <link rel="stylesheet" href="index.css">
-        <title>Hobbylos - Podcast</title>
-    </head>
-    <body>
-        <div id="Titel">
-            <h1>Willkommen, erhabene Lobbyhoes</h1>
-            <p>Dies ist ein Platzhalter eine Hauptseite für alle Lobbyhoes, die selbstverständlich alle <a href="https://open.spotify.com/show/6UUIXmp1V0fK4ZpK7vzAbQ" target="_blank">5 &#10025;Sterne&#10025;</a> gegeben haben. </p>
-            <p>Hier schonmal ein paar Links zu den Aktuellen <a href="https://github.com/Lobby-Hoes/" target="_blank">Projekten der Lobby Hoe Nerds</a></p><br>
-        </div>
+<!doctype html>
+<html class="no-js" lang="">
 
-        <h2>Usable:</h2>
-        <div id="woistvulva" class="usable">
-            <p>Ein Spiel basierend auf Wimmelbildern entwickelt für den podcast "Hobbylos" von Rezo und Julien Bam.</p>
-            <a href="https://woistvulva.site/" target="_blank">https://woistvulva.site/</a>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<article class="container-fluid">
+
+  <div id="carouselCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Wo ist Vulva?"></button>
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Mathefacts"></button>
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Städtegeschichten"></button>
+      <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Hobbylos Dat"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <a href="https://wo-ist-vulva.com/" target="_blank">
+          <img src="./img/vulva.PNG" alt="..."\>
+        </a>
+        <div class="carousel-caption d-block fw-bold">
+          <h1>Wo ist Vulva?</h1>
+          <p>Das Spiel von Lobbyhoes für Hobbylos</p>
+          <a href="https://github.com/Lobby-Hoes/wo-ist-vulva" target="_blank" class="btn btn-primary">Zum Code auf Github</a>
         </div>
-        <br>
-        <div id="mathefacts" class="usable">
-            <p>Eine Übersichtstabelle der Mathefacts für den Podcast "Hobbylos" von Rezo und Julien Bam.</p>
-            <a href="https://mathe.hobbylos.online/" target="_blank">https://mathe.hobbylos.online/</a>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <a href="https://mathe.hobbylos.online/" target="_blank">
+        <img src="./img/mathe.PNG" alt="..."\>
+        </a>
+        <div class="carousel-caption d-block fw-bold">
+          <h1>Mathefacts</h1>
+          <p>Gesammelte, durchsuchbare Liste der bisherigen Mathefacts</p>
+          <a href="https://github.com/Lobby-Hoes/mathefacts" target="_blank" class="btn btn-primary">Zum Code auf Github</a>
         </div>
-        <br>
-        <div id="Stadtgeschichten" class="usable">
-            <p>Eine Übersichtskart der Stadtgeschichten für den Podcast "Hobbylos" von Rezo und Julien Bam.</p>
-            <a href="https://stadt.hobbylos.online/" target="_blank">https://stadt.hobbylos.online/</a>
+      </div>
+      <div class="carousel-item" data-bs-interval=3000">
+        <a href="https://staedte.hobbylos.online/" target="_blank">
+          <img src="./img/staedte.PNG" alt="..."\>
+        </a>
+        <div class="carousel-caption d-block fw-bold">
+          <h1>Städtegeschichten</h1>
+          <p>Auf einer interaktiven Karte aufgetragene Städtegeschichten</p>
+          <a href="https://github.com/Lobby-Hoes/staedtegeschichten" target="_blank" class="btn btn-primary">Zum Code auf Github</a>
         </div>
-        <br>
-        <h2>In Progress...</h2>
-        <div id="duden" class="inprogress">
-            <p>Das Lexikon für den Hobbylos Podcast.</p>
-            <a href="https://duden.hobbylos.online/" target="_blank">https://duden.hobbylos.online/</a>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <a href="https://data.hobbylos.online/graphql" target="_blank">
+          <img src="./img/data.PNG" alt="..."\>
+        </a>
+        <div class="carousel-caption d-block fw-bold">
+          <h1>Hobbylos Data</h1>
+          <p>Eine auf GraphQL basierende Datenschnittstelle mit allen Daten zum Podcast</p>
+          <a href="https://github.com/Lobby-Hoes/hobbylos-data" target="_blank" class="btn btn-primary">Zum Code auf Github</a>
         </div>
-        <br>
-    </body>
-    <footer id="footer">
-        <p></p>
-    </footer>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</article>
+<aside class="container">
+  <h1>Lobbyhoes Nerds Projekte</h1>
+  <p>
+    Es waren einmal 2 sehr männliche Männer, welche sehr männlich waren. Ein Schlumpf, der gerne Sättel mit Pimmeln hat und ein Asiate, welcher sehr gut in Plurals Pluralen Pluri ist um genau zu sein.<br>
+    Die beiden hatten nicht nur sehr männliche, tiefe Stimmen, sondern auch einige sehr kreative Ideen in ihrem gemeinsamen Podcast, <a href="https://open.spotify.com/show/6UUIXmp1V0fK4ZpK7vzAbQ?si=b9e9aca254d14dae" target="_blank">Hobbylos</a>.<br>
+    Diese Ideen erschienen für die meisten Leute absurd und unerreichbar. Jeder dachte, diese Ideen werden Ideen bleiben. Doch man vergass, dass es sich bei der Community um wahre Lobbyhoes handelte.
+  </p>
+  <p>
+    Kaum ist eine neue, schöpferische Idee vorhanden, kommen die sehr <span class="erhaben">erhabenen</span> Lobbyhoe Nerds und setzen diese um, da sie von einem kleinen Chinesen - Marina - aus Kasachstan dazu gezwungen werden. Auf dieser sehr fruchtbrinenden Seite sind alle die bewundernswerten Projekte der überaus gebildeten Lobbyhoe Nerds zu sehen.
+  </p>
+</aside>
+
+<img id="marina" src="./img/marina.png" alt="Marina">
+
+<div class="modal fade" id="staticBackdropModal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel1">Marina sagt:</h5>
+      </div>
+      <div class="modal-body">
+        Eeeeeey!!! Bist du zu langsam oder was?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sorry, kommt nicht wieder vor</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">...ja, aber, aber...ok, sorry</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="staticBackdropModal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel2">Marina sagt:</h5>
+      </div>
+      <div class="modal-body">
+        Eeeeeey!!! Schön alles in Reihenfolge angucken. Weiter jetzt!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ok, ok, ok. Weiß auch nicht was da über mich gekommen ist.</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Oh sorry verklickt! Tut mir echt voll leid!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+<script src="js/vendor/fart.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js" ></script>
+</body>
+
 </html>
