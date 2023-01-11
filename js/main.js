@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let fart = new Fart()
   $('#carouselCaptions').on('slide.bs.carousel', function (event) {
-    if ((event.from + 1 !== event.to || event.from - 1 !== event.to ) && event.from !== 4) {
+    if ((event.from + 1 !== event.to || event.from - 1 !== event.to ) && event.from !== 5) {
       marina.classList.remove("left")
       marina.classList.add("top")
       marina.classList.add("in")
